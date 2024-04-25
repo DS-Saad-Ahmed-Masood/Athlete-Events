@@ -2,17 +2,10 @@
 
 import streamlit as  st
 import pandas as pd
-#import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-#import altair as alt
-#from PIL import Image
 
-
-#Read data from for laptop
-#athlete_df=pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-1\athlete_events.csv')
-#noc_df=pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-1\noc_regions.csv')
-athlete_df=pd.read_csv(r'athlete_events1.csv')
+athlete_df=pd.read_csv(r'athlete_events.csv')
 noc_df=pd.read_csv('noc_regions.csv')
 
 #---------------------------------For Data Cleaning---------------------------------#
